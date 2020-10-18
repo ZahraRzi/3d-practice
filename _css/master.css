@@ -1,0 +1,113 @@
+/******************************* FONTS *********************************/
+@font-face {
+  font-family: "at2";
+  src: url(fonts/at2.eot);
+  src: url(fonts/at2.eot?#iefix) format("embedded-opentype"),
+    /*url(fonts/at2.otf),*/ url(fonts/at2.woff) format("woff"),
+    url(fonts/at2.ttf) format("truetype"), url(fonts/at2.svg#at2) format("svg");
+}
+
+/************************ DEFAULT STYLES ******************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "at2", "tahoma";
+  box-sizing: border-box;
+}
+img {
+  border: 0 none;
+}
+html {
+  height: 100%;
+  font-size: 10px;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+i,
+address,
+b {
+  font-weight: normal;
+  font-style: normal;
+}
+a,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+textarea {
+  outline: 0 none;
+}
+input,
+textarea,
+a,
+i {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+textarea {
+  resize: none;
+}
+select option {
+  padding: 0 10px;
+  line-height: 25px;
+}
+input.error,
+textarea.error {
+  border: 1px dotted #ff0000;
+}
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"],
+label.choice {
+  cursor: pointer;
+  vertical-align: middle;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 5px;
+}
+input[disabled],
+.disabled,
+.disabled * {
+  cursor: not-allowed !important;
+  background-color: #eee !important;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  direction: rtl;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/******************************************************************************/
+/*************************** GENERAL STYLES ***********************************/
+/******************************************************************************/

@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ifont-softsaz";
+  src:url("fonts/ifont-softsaz.eot");
+  src:url("fonts/ifont-softsaz.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ifont-softsaz.woff") format("woff"),
+    url("fonts/ifont-softsaz.ttf") format("truetype"),
+    url("fonts/ifont-softsaz.svg#ifont-softsaz") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ifont-softsaz" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="i-"]:before,
+[class*=" i-"]:before {
+  font-family: "ifont-softsaz" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-facebook:before {
+  content: "\61";
+}
+.i-telegram:before {
+  content: "\63";
+}
+.i-twitter:before {
+  content: "\64";
+}
+.i-google-plus:before {
+  content: "\62";
+}
+.i-search:before {
+  content: "\65";
+}
+.i-checked-1:before {
+  content: "\67";
+}
+.i-download:before {
+  content: "\68";
+}
+.i-like:before {
+  content: "\69";
+}
+.i-view:before {
+  content: "\6a";
+}
+.i-left-chevron:before {
+  content: "\66";
+}
+.i-right-chevron:before {
+  content: "\6b";
+}
+.i-cancel-1:before {
+  content: "\6c";
+}
+.i-next:before {
+  content: "\6e";
+}
+.i-back:before {
+  content: "\6f";
+}
+.i-copyright:before {
+  content: "\70";
+}
+.i-gps-fix:before {
+  content: "\71";
+}
+.i-up-down:before {
+  content: "\72";
+}
+.i-sort:before {
+  content: "\74";
+}
+.i-doc-file:before {
+  content: "\75";
+}
+.i-sub-category:before {
+  content: "\77";
+}
+.i-price:before {
+  content: "\79";
+}
+.i-canvas:before {
+  content: "\76";
+}
+.i-shape-1:before {
+  content: "\78";
+}
+.i-shape-2:before {
+  content: "\7a";
+}
+.i-chat-comment-oval-speech-bubble-with-text-lines-1:before {
+  content: "\43";
+}
+.i-comment:before {
+  content: "\44";
+}
+.i-cart:before {
+  content: "\45";
+}
+.i-warning-1:before {
+  content: "\46";
+}
+.i-paper-plane:before {
+  content: "\47";
+}
+.i-warning:before {
+  content: "\41";
+}
+.i-file-size:before {
+  content: "\49";
+}
+.i-reply:before {
+  content: "\42";
+}
+.i-clock:before {
+  content: "\48";
+}
+.i-id-card:before {
+  content: "\4a";
+}
+.i-lock:before {
+  content: "\4b";
+}
+.i-question-mark:before {
+  content: "\4c";
+}
+.i-avatar:before {
+  content: "\4d";
+}
+.i-keyboard:before {
+  content: "\4e";
+}
+.i-refresh:before {
+  content: "\4f";
+}
+.i-note:before {
+  content: "\50";
+}
+.i-check-circle:before {
+  content: "\51";
+}
+.i-exclamation-triangle:before {
+  content: "\52";
+}
+.i-times-circle:before {
+  content: "\53";
+}
+.i-attach:before {
+  content: "\54";
+}
+.i-phone:before {
+  content: "\55";
+}
+.i-money:before {
+  content: "\56";
+}
+.i-money-1:before {
+  content: "\57";
+}
+.i-balance:before {
+  content: "\58";
+}
+.i-map:before {
+  content: "\59";
+}
+.i-mail:before {
+  content: "\5a";
+}
+.i-percentage:before {
+  content: "\30";
+}
+.i-phone-1:before {
+  content: "\31";
+}
+.i-printer:before {
+  content: "\32";
+}
+.i-sitemap:before {
+  content: "\33";
+}
+.i-briefcase:before {
+  content: "\34";
+}
+.i-user:before {
+  content: "\36";
+}
+.i-money-2:before {
+  content: "\35";
+}
+.i-envelope:before {
+  content: "\37";
+}
+.i-download-1:before {
+  content: "\38";
+}
+.i-power:before {
+  content: "\39";
+}
+.i-necktie:before {
+  content: "\21";
+}
+.i-upload:before {
+  content: "\22";
+}
+.i-calendar:before {
+  content: "\23";
+}
+.i-bulb:before {
+  content: "\24";
+}
+.i-printer-1:before {
+  content: "\25";
+}
+.i-musseum:before {
+  content: "\26";
+}
+.i-credit-card:before {
+  content: "\27";
+}
+.i-calendar-1:before {
+  content: "\28";
+}
+.i-info-circle:before {
+  content: "\29";
+}
+.i-shape:before {
+  content: "\6d";
+}
+.i-instagram:before {
+  content: "\73";
+}
+.i-heart:before {
+  content: "\2a";
+}
