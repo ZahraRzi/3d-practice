@@ -320,3 +320,110 @@ header--bg {
 .navbar__li:hover > .navbar__link--hover::before {
   box-shadow: 5px 3px #3c9140, -5px 6px #3c9140;
 }
+
+.before-main {
+  background-image: url("../_images/header_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.before-main__inner {
+  margin: 5px auto;
+  padding: 70px 0 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.before-main__inner-content {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.before-main__inner-content--text {
+  font-size: 1.85rem;
+  color: #fff;
+}
+
+.before-main__inner-content::after {
+  content: " ";
+  background: url(../_images/heading-title2.png) no-repeat;
+  position: absolute;
+  height: 20px;
+  left: 50%;
+  right: -165px;
+  transform: translate(-165px);
+}
+
+.before-main__inner-content--text2 {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.before-main__inner-content--text2-span {
+  color: #3dc4f0;
+  border-bottom: 1px solid #3dc4f0;
+  font-size: 1.8rem;
+}
+
+.before-main__inner-input__input {
+  padding: 15px 25px 15px 75px;
+  width: 100%;
+}
+
+.before-main__inner-input__form > input {
+  font-size: 1.1rem;
+}
+.before-main__inner-input__form > input::placeholder {
+  color: #d1d0cd;
+}
+.before-main__inner-input {
+  width: 65%;
+}
+
+.before-main__inner-input__form {
+  position: relative;
+  outline: 5px solid #80808063;
+}
+
+.before-main__inner-input__button {
+  position: absolute;
+  top: 6;
+  left: 6;
+  background-color: #416359;
+  color: white;
+  border: none;
+  padding: 8px 13px;
+  font-size: 2.2rem;
+  border: none;
+}
+
+.before-main__inner-tab-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: gray;
+}
+
+.before-main__inner-tab-btn1 {
+  padding: 37px 28px 17px 28px;
+  background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 0) 29%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.before-main__inner-tab-btn2 {
+  padding: 37px 28px 17px 28px;
+  background: linear-gradient(
+    189deg,
+    rgba(255, 255, 255, 0) 29%,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
