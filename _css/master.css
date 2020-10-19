@@ -111,3 +111,212 @@ input[disabled],
 /******************************************************************************/
 /*************************** GENERAL STYLES ***********************************/
 /******************************************************************************/
+.top-header {
+  background-color: #373736;
+}
+
+.top-header__inner {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.top-header__inner-badge {
+  position: absolute;
+  left: 0;
+  padding: 6px 10px;
+  background-color: #388e3c;
+  color: white;
+}
+
+.top-header__inner-badge--content {
+  position: relative;
+}
+
+.top-header__inner-badge--content::before {
+  content: "";
+  position: absolute;
+  right: -23px;
+  bottom: -6px;
+  border-style: solid;
+  border-width: 18px 9px 14px 5px;
+  border-color: #388e3c transparent #388e3c #388e3c;
+}
+
+.top-header__inner-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #c2c2c2;
+  padding: 6px 0;
+}
+
+.top-header__inner-content--off {
+  padding-right: 15px;
+}
+
+.top-header__inner-content--off::before {
+  content: "/";
+  position: absolute;
+  top: 5px;
+  margin-right: -10px;
+}
+
+header--bg {
+  background-color: white;
+}
+
+.middle-header {
+  border-top: 3px solid #388e3c;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.middle-header__inner {
+  display: flex;
+}
+
+.middle-header__inner-left {
+  flex: 50%;
+}
+
+.middle-header__inner-right {
+  display: flex;
+  justify-content: flex-start;
+  flex: 50%;
+}
+
+.navbar__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar__li {
+  padding: 10px 5px;
+  color: #7f7f7f;
+  font-size: 1.3rem;
+}
+
+.navbar__li--utils {
+  padding: 10px 15px 0 15px;
+  color: #c2c2c2;
+}
+
+.navbar__li--utils:hover {
+  color: white;
+}
+
+.navbar__li--border-half::after {
+  content: "|";
+  color: #c2c2c2;
+  padding-right: 5px;
+}
+
+.navbar__li--border-full {
+  border-right: 1px solid #f0f0f0;
+}
+
+.navbar__li--font {
+  font-size: 1.7rem;
+}
+
+.login-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.login-part--padding {
+  padding: 10px 5px;
+}
+
+.login-part--text-color {
+  color: #3c9140;
+}
+
+.login-part--border {
+  border-right: 1px solid #f0f0f0;
+}
+
+.login-part--border-half::before {
+  content: "|";
+  color: #c2c2c2;
+  margin-left: 5px;
+}
+
+.bottom-header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-header__navbar {
+  flex: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottom-header__logo-container {
+  flex: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__ul--text {
+  color: #444;
+  font-size: 1.2rem;
+}
+
+.navbar__li--size {
+  padding: 10px 20px;
+}
+
+.navbar__li--division::after {
+  content: "//";
+  display: inline-block;
+  transform: translate(-22px, 0px);
+  color: #444;
+}
+
+.navbar__li-instagram--gradient:hover {
+  background-image: linear-gradient(to bottom, #7223c0, #c3256a, #da8840);
+}
+
+.navbar__li-telegram:hover {
+  background-color: #55acee;
+}
+
+.navbar__li-twitter:hover {
+  background-color: #00aced;
+}
+
+.navbar__li-google-plus:hover {
+  background-color: #dd4b39;
+}
+
+.navbar__li-facebook:hover {
+  background-color: #3b5998;
+}
+
+.navbar__li--hover {
+  position: relative;
+}
+
+.navbar__li--hover-color:hover {
+  color: #3c9140;
+}
+
+.navbar__li > .navbar__link--hover::before {
+  content: " ";
+  width: 30px;
+  height: 1px;
+  background: transparent;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-10px);
+}
+
+.navbar__li:hover > .navbar__link--hover::before {
+  box-shadow: 5px 3px #3c9140, -5px 6px #3c9140;
+}
